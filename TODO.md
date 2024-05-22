@@ -1,0 +1,37 @@
+Things TODO:
+
+ - [ ] Design the lexical grammar
+ - [ ] Design the syntax grammar
+ - [ ] Add build configuration using make
+ - [ ] Add unit testing framework ([MinUnit](https://jera.com/techinfo/jtns/jtn002))
+ - [ ] Add REPL / interactive shell
+ - [ ] Implement and test hash table utility
+ - [ ] Implement and test array utility
+ - [ ] Implement robust debugging module for all parts of the system.
+ - [ ] Implement full scanner for the lexical grammar
+ - [ ] Add constant pool (similar to [Java's](https://blogs.oracle.com/javamagazine/post/java-class-file-constant-pool))
+ - [ ] Add support for variable declaration and access
+ - [ ] Implement print statements
+ - [ ] Implement additive expression
+ - [ ] Implement all other "simple" expressions, i.e. excluding postfix-call-expressions
+ - [ ] Implement string literals
+ - [ ] Implement block statements
+ - [ ] Add [_FAST](https://stackoverflow.com/questions/74998947/whats-pythons-load-fast-bytecode-instruction-fast-at) local variables
+ - [ ] Implement selection statement (`if`s)
+ - [ ] Add conditional debugging/logging for tests that fail
+ - [ ] Implement block expressions
+ - [ ] Implement assignment statements
+ - [ ] Implement non-constant variables
+ - [ ] Implement iteration statement (loops)
+ - [ ] Implement functions and returns
+ - [ ] Implement the rest of the parser for the whole syntax grammar
+ - [ ] Add CLI argument to enable or disable debugging logs in the REPL.
+ - [ ] Improve error logs; print line and column
+ - [ ] Add Panic Mode error recovery; stop crashing the compiler on every error.
+ - [ ] Implement objects / structs
+ - [ ] Add garbage collector
+ - [ ] Implement closures
+ - [ ] Add native functions
+ - [ ] Add benchmark tests
+ - [ ] Profile execution and find opportunities for optimization
+ - [ ] Implement [NaN boxing](https://piotrduperas.com/posts/nan-boxing)
